@@ -1,4 +1,4 @@
-Copyright (c) 2012 Valentin Vasilyev
+Copyright (c) 2016 Masayuki Higashino
 
 MIT License
 

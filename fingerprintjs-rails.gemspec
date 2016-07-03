@@ -3,14 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
-  gem.name          = "fingerprintjs-rails"
-  gem.version       = "0.5.3"
-  gem.authors       = ["Valentin Vasilyev"]
-  gem.email         = ["valentin.vasilyev@outlook.com"]
-  gem.description   = "fingerprintjs for rails asset pipeline"
-  gem.summary       = "FingerprintJS JavaScript library, packaged for Ruby-on-Rails asset pipeline"
-  gem.homepage      = "http://valve.github.com/fingerprintjs"
-
+  gem.name          = "fingerprintjs2-rails"
+  gem.version       = "1.4.0"
+  gem.authors       = ["Masayuki Higashino"]
+  gem.email         = ["mh.on.web@gmail.com"]
+  gem.description   = "fingerprintjs2 for rails asset pipeline"
+  gem.summary       = "Modern & flexible browser fingerprinting library, packaged for Ruby-on-Rails asset pipeline"
+  gem.homepage      = "https://github.com/mh61503891/fingerprintjs-rails"
   gem.files         = `git ls-files`.split($/)
   gem.require_paths = ["lib"]
 end
